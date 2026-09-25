@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:black;
+    color:white;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.login-btn{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    flex-wrap:wrap;
+}
+
+.hero-left{
+    width:500px;
+}
+
+.hero-left h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-left p{
+    margin-bottom:20px;
+}
+
+.booking-box{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.booking-box input{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.booking-box button{
+    padding:15px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.hero-right img{
+    width:500px;
+    border-radius:20px;
+}
+
+.services{
+    padding:80px 8%;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    text-align:center;
+    padding:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    border-radius:15px;
+}
+
+.card i{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.driver{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    flex-wrap:wrap;
+}
+
+.driver img{
+    width:450px;
+    border-radius:20px;
+}
+
+.driver button{
+    margin-top:20px;
+    padding:12px 25px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-right img{
+        width:100%;
+        margin-top:20px;
+    }
+
+    .driver{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .driver img{
+        width:100%;
+        margin-top:20px;
+    }
+
+}
